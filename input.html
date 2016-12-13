@@ -1,24 +1,16 @@
+---
+layout: default
+---
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Profile</title>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-	<meta name="Dominique" content="Neighborly">
+  {% include head.html %}
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <body>
 
-    <script type="text/javascript" src="js/scripts.js"></script>
+    {% include header.html %}
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
-
-</head>
 <body id="form">
 <h1 class="headerpad">Join your Neighborhood</h1>
 <form class="profile">
