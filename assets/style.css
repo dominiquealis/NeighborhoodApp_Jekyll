@@ -106,6 +106,7 @@ footer{
 		display: inline-block;
 		position: relative;
 		width: 100%;
+		max-height: 500px;
 }
 
 /*Bootstrap User Panel CSS from Bootsnip*/
